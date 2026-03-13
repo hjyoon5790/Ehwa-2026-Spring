@@ -16,7 +16,7 @@
 | [13](#team-13) | Semicolone; | 산학 | AI 자서전 |
 | [14](#team-14) | def | 연구 | Agent AI 추론을 위한 메모리 효율 최적화 |
 | [15](#team-15) | 햄부기 | 연구 | Split-Computing Vision Inference System |
-| [16](#team-16) | 퓨터 | 산학|  CharacterAI |
+| [16](#team-16) | 퓨터 | 산학| 감정 MATRIX 기반 사용자 맞춤형 AI 영어 회화 학습 서비스 |
 | [17](#team-17) | SPY | 산학 | AI를 활용한 유튜브 댓글 기반 인터넷 밈 트렌드 분석 플랫폼 |
 | [18](#team-18) | 디바트(deep-art) |  |  |
 | [19](#team-19) | Logue |  |  |
@@ -351,7 +351,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | CharacterAI  |
+| 프로젝트명 | 감정 MATRIX 기반 사용자 맞춤형 AI 영어 회화 학습 서비스  |
 | 트랙 | 산학 |
 | 팀명 | 퓨터 |
 | 팀구성 | 김민주, 백은혜, 이찬희, 최윤서  |
@@ -362,8 +362,8 @@
 | 사용 기술 | LLM API, RAG (벡터 DB), Reddit/YouTube API, Rive 애니메이션, Next.js, FastAPI |
 | 기대 효과 | 캐릭터와의 정서적 유대감 형성으로 학습 지속률 향상, 최신 슬랭 기반 실용 영어 습득 |
 | GitHub Repo | [https://github.com/puter8/capstone](https://github.com/puter8/capstone) |
-| Team Ground Rule | https://github.com/puter8/Ewha-2026-Spring/blob/main/Team_Ground_Rule.md |
-| 최종수정일 | 2026.03.12 |
+| Team Ground Rule | https://github.com/puter8/capstone/blob/main/Team_Ground_Rule.md |
+| 최종수정일 | 2026.03.13 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
