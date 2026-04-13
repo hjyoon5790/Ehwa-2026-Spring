@@ -140,7 +140,7 @@
 | 팀지도교수 | 박현석 |
 | 무엇을 만들고자 하는가 | 사용자에게 AI 기반 역사 스토리 콘텐츠(텍스트, 영상)와 역사 인물 챗봇과의 대화 기능을 제공하여 역사에 흥미를 느낄 수 있도록 유도한 후, 위 콘텐츠들과 관련한 관광지를 추천하여 대한민국 관광을 활성화할 수 있는 웹 플랫폼을 만들고자 한다. |
 | 고객 (누구를 위해) | 역사에 큰 관심은 없지만 재미있는 콘텐츠에는 반응하는 20~30대 사용자<br>여행을 계획 중이거나, 새로운 여행지를 찾고 싶은 사용자<br>한국 문화를 경험해 보고 싶은 외국인<br>기존 관광 정보 서비스에 흥미를 느끼지 못한 사용자 |
-| Pain Point (해결할 문제) | - 역사 정보를 흥미롭게 전달하는 매체 부족<br>- 외국인 관광객의 한국 역사 이해 및 관광 접근성 부족족<br>- 외국인 관광객의 한국 역사 이해 및 관광 접근성 부족<br>- 학생들이 실제 역사 장소를 체험하며 학습할 기회 부족<br><br>스토리를 중심으로 역사 장소를 연결하여 외국인과 학생 모두가 한국 역사를 쉽게 이해하고 직접 체험할 수 있는 몰입형 문화관광 경험을 제공하는 것을 목표 |
+| Pain Point (해결할 문제) | - 역사 정보를 흥미롭게 전달하는 매체 부족<br>- 외국인 관광객의 한국 역사 이해 및 관광 접근성 부족<br>- 학생들이 실제 역사 장소를 체험하며 학습할 기회 부족<br><br>스토리를 중심으로 역사 장소를 연결하여 외국인과 학생 모두가 한국 역사를 쉽게 이해하고 직접 체험할 수 있는 몰입형 문화관광 경험을 제공하는 것을 목표 |
 | 사용 기술 | **프론트엔드**<br><br>- Next.js, React, TypeScript, Tailwind CSS, Kakao Maps API<br><br>**백엔드**<br><br>- Node.js , MySQL, FastAPI<br><br>**데이터 수집**<br><br>- 관광지 위치, 관광지 관련 이미지 및 텍스트 데이터 분석<br><br>**AI 및 추천 시스템**<br><br>- 스토리 기반 관광 코스 추천 알고리즘, LLM 기반 역사 요약 및 다국어 번역 |
 | 개발환경 | 1. Client 디바이스를 PC로 제공<br>2. FE는 Next.js(React), TypeScript 사용<br>3. BE는 FastAPI 사용<br>4. DB는 PostgreSQL 사용<br>5. 사용하는 특별한 라이브러리는 FE ( Tailwind CSS, TanStack Query, Leaflet) / BE ( SQLAlchemy, Pydantic, Uvicorn) 사용<br>6. API Call로 사용할 서비스는 OpenAI 사용
 | 사용하는 소프트웨어 URL | 1. Client 디바이스를 PC로 제공<br>2. FE는 Next.js(React), TypeScript 사용<br>3. BE는 FastAPI 사용<br>4. DB는 PostgreSQL 사용<br>5. 사용하는 특별한 라이브러리는 FE ( Tailwind CSS, TanStack Query, Leaflet) / BE ( SQLAlchemy, Pydantic, Uvicorn) 사용<br>6. API Call로 사용할 서비스는 OpenAI 사용
