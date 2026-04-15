@@ -297,7 +297,7 @@
 | 무엇을 만들고자 하는가 | 여성 혼자 여행하는 사람들을 위한 안전 중심 여행 플랫폼을 개발하고자 한다. 여성 사용자들이 직접 작성한 안전 리뷰 데이터를 기반으로 여행지의 안전도를 지도에 표시하고, 이를 활용해 안전한 여행 경로와 맛집 및 관광 코스를 추천한다. 또한 같은 지역을 여행하는 여성들 간 동행 매칭 기능을 제공하여 안전하고 편안한 여행 환경을 만드는 것을 목표로 한다. |
 | 고객 (누구를 위해) | 20대 초반 여성교환 학생, 사회초년생 여성 직장인(20대 중후반) |
 | Pain Point (해결할 문제) | 여성의 안전 정보 부족과 혼자 여행할 때의 불안감 |
-| 사용 기술 | [AI] OpenAI API <br> [Frontend] React, Google Cloud console, HTML / CSS / JavaScript <br> [Backend] Fastapi<br> [Database] MySQL |
+| 사용 기술 | [AI] OpenAI API <br> [Frontend] React, Google Cloud console, HTML / CSS / JavaScript <br> [Backend] FastApi<br> [Database] MySQL |
 | 개발환경 | 1. Client 디바이스는 Windows를 기반으로 한 PC로 한다.<br>2. FE는  React를 사용한다.<br>3. BE는 FastAPI를 기반으로 구현한다.<br>4. DB는 MySQL를 사용한다.<br>5. FE또는 BE에 사용하는 특별한 라이브러리는 Google Maps JavaScript API를 활용하여 지도 기반 기능을 구현한다.<br>6. API Call을 위해 OpenAI 서비스를 사용한다.
 | 사용하는 소프트웨어 URL | 1. Client 디바이스는 Windows를 기반으로 한 PC로 한다.<br>2. FE는  React를 사용한다.<br>3. BE는 FastAPI를 기반으로 구현한다.<br>4. DB는 MySQL를 사용한다.<br>5. FE또는 BE에 사용하는 특별한 라이브러리는 Google Maps JavaScript API를 활용하여 지도 기반 기능을 구현한다.<br>6. API Call을 위해 OpenAI 서비스를 사용한다.
 | 기대 효과 | 여성 1인 여행자가 안전하고 효율적으로 여행을 계획할 수 있고, 여성의 이동권과 안전권을 기술적으로 보장한다. |
