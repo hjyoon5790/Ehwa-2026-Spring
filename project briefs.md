@@ -322,15 +322,13 @@
 | 무엇을 만들고자 하는가 | 본 프로젝트는 AI 기반 질문 기록 및 인사이트 내재화 플랫폼의 핵심 기능을 구현한다. 생성형 AI와의 대화 내용을 단순히 저장하는 것을 넘어, AI가 질문과 답변을 자동으로 요약하고 핵심 키워드를 추출하여 체계적인 지식 자산으로 전환하는 시스템을 구축한다. 특히 개인의 기록 관리에 머무르지 않고, 향후 팀 단위에서 인사이트를 축적하고 공유하며 협업할 수 있는 지식 공유 플랫폼으로의 확장을 목표로 설계되었다.  |
 | 고객 (누구를 위해) | 본 서비스의 주요 고객은 생성형 AI를 자주 활용하는 사용자들이다. 특히 학습이나 과제, 프로젝트, 창업 아이디어 탐색 등을 위해 AI에게 질문을 자주 하는 대학생을 주요 타겟으로 한다. AI를 통해 얻은 방대한 정보를 체계적으로 정리하고 내재화하고 싶은 개인 사용자뿐만 아니라, 팀원 간의 AI 활용 인사이트를 공유하고 중복 탐색을 방지하여 집단 지성을 구축하고자 하는 팀 단위 사용자들에게도 좋은 서비스가 될 수 있다.|
 | Pain Point (해결할 문제) | AI와의 대화 이력은 길고 비정형적인 텍스트로 구성되어 있어, 시간이 흐른 뒤 필요한 핵심 정보를 다시 찾아내거나 기억하기 어렵다는 문제가 있다. 이로 인해 유익한 정보가 일회성으로 휘발되며, 개인과 조직의 지식으로 축적되지 못하는 비효율이 반복되고 있다.  |
-| 사용 기술 | 🔹프론트엔드 <br> React.js <br> -컴포넌트 기반 구조를 통한 효율적 UI 개발 및 향후 팀 협업 기능 확장성 고려 <br> - 사용자 중심의 직관적인 질문·답변 입력 및 인사이트 탐색 UI 구현 <br>  <br>
-🔹 백엔드 <br> Node.js <br> - 비동기 처리 강점을 활용한 다수 사용자 요청의 안정적 처리 <br> - 확장 가능한 API 서버 구조 설계 및 데이터 파이프라인 구축 <br>  <br> 🔹 데이터베이스 <br> PostgreSQL <br> -강력한 무결성을 기반으로 한 인사이트 간 논리적 연결 체계 관리 <br> - 축적된 데이터의 안정적 보존 및 고도화된 지식 검색 기반 제공 <br>  <br> 🔹 AI 및 데이터 처리 <br> Groq Cloud API (Llama 3.3 모델) <br> - LPU 가속 엔진을 통한 실시간 인사이트 요약 및 분석 <br> - 정교한 프롬프트 설계를 통한 JSON 기반 구조화 데이터 생성 <br> Vector Embedding <br> - 인사이트 간 의미적 유사도 분석 및 연관 정보 추천 <br> - 향후 팀 내 중복 탐색 방지 및 지식 연결 기능의 기반 기술로 활용 |
 | 사용 기술 | **🔹 프론트엔드: React.js** <br> - 컴포넌트 기반 구조를 통한 효율적 UI 개발 및 향후 팀 협업 기능 확장성 고려 <br> - 사용자 중심의 직관적인 질문·답변 입력 및 인사이트 탐색 UI 구현 <br><br> **🔹 백엔드: Node.js** <br> - 비동기 처리 강점을 활용한 다수 사용자 요청의 안정적 처리 <br> - 확장 가능한 API 서버 구조 설계 및 데이터 파이프라인 구축 <br><br> **🔹 데이터베이스: PostgreSQL** <br> - 강력한 무결성을 기반으로 한 인사이트 간 논리적 연결 체계 관리 <br> - 축적된 데이터의 안정적 보존 및 고도화된 지식 검색 기반 제공 <br><br> **🔹 AI 및 데이터 처리: Groq Cloud API (Llama 3.3)** <br> - LPU 가속 엔진을 통한 실시간 인사이트 요약 및 분석 <br> - 정교한 프롬프트 설계를 통한 JSON 기반 구조화 데이터 생성 <br> **Vector Embedding** <br> - 인사이트 간 의미적 유사도 분석 및 연관 정보 추천 <br> - 향후 팀 내 중복 탐색 방지 및 지식 연결 기능의 기반 기술로 활용 |
 | 개발환경 | **🔹 OS**: Windows 11 <br> **🔹 IDE**: Visual Studio Code <br> **🔹 프론트엔드**: React.js (컴포넌트 기반 UI/UX 설계) <br> **🔹 백엔드**: Node.js (비동기 처리 및 API 파이프라인 구축) <br> **🔹 데이터베이스**: PostgreSQL (데이터 무결성 및 관계형 관리) <br> **🔹 AI 엔진**: Groq Cloud (Llama 3.3 실시간 추론) <br> **🔹 버전 관리**: Git, GitHub |
 | 사용하는 소프트웨어 URL | **🔹 React.js**: [https://react.dev/](https://react.dev/) <br> **🔹 Node.js**: [https://nodejs.org/](https://nodejs.org/) <br> **🔹 PostgreSQL**: [https://www.postgresql.org/](https://www.postgresql.org/) <br> **🔹 Groq Cloud API**: [https://groq.com/](https://groq.com/) <br> **🔹 Llama 3.3**: [https://llama.meta.com/](https://llama.meta.com/) |
 | 기대 효과 | 본 서비스를 통해 사용자는 AI와의 대화에서 얻은 정보를 체계적으로 관리할 수 있다. 저장된 인사이트는 시간이 지나 다시 노출되기 때문에 기억에 오래 남게 되며 학습이나 프로젝트 과정에서 다시 활용될 가능성이 높아진다. 또한 관련 인사이트가 자동으로 연결되기 때문에 사용자는 자신의 질문과 생각이 구조적으로 확장되는 경험을 할 수 있다. 결과적으로 AI 사용이 단순한 질문과 답변에서 끝나는 것이 아니라 개인의 지식 축적과 사고 확장으로 이어지는 효과를 기대할 수 있다. |
-| GitHub Repo | [https://github.com/Semicolone](https://github.com/Semicolone) |
+| GitHub Repo | [https://github.com/Semicolone/start](https://github.com/Semicolone/start) |
 | Team Ground Rule | [https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md](https://github.com/Semicolone/start/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.04.19. |
+| 최종수정일 | 2026.05.06. |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
