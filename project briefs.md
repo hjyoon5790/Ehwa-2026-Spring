@@ -249,7 +249,7 @@
 | 개발환경 | 1. Client 디바이스: PC (Windows, Mac) 2. FE: Next.js, React, TailwindCSS, TanStack Query 3. BE: FastAPI (Python) 4. DB: Firebase Firestore 5. AI/NLP 오픈소스: tiktoken, LangChain, LLMLingua 또는 DSPy 6. 외부 API: OpenAI / Anthropic / Google AI SDK 7. 자체 개발 모듈: filler word 감지, 모호 표현 탐지, 토큰 과다 경고, 모델 추천 엔진 8. 배포: Vercel (프론트) + Railway 또는 Render (백엔드) 9. 특수 라이브러리: LiteLLM (백엔드 멀티모델 통합) |
 | 사용하는 소프트웨어 URL | tiktoken: https://github.com/openai/tiktoken LangChain: https://github.com/langchain-ai/langchain LLMLingua: https://github.com/microsoft/LLMLingua DSPy: https://github.com/stanfordnlp/dspy LiteLLM: https://github.com/BerriAI/litellm Next.js: https://github.com/vercel/next.js FastAPI: https://github.com/tiangolo/fastapi Firebase: https://firebase.google.com TanStack Query: https://github.com/TanStack/query |
 | 기대 효과 | ① 비개발자의 프롬프트 토큰 낭비를 시각화하여 인지시키고, 자동 최적화를 통해 평균 40% 이상의 토큰 절감 ② 모델별 비용 실시간 비교를 통해 동일 품질 대비 최저 비용 모델 선택 유도 ③ filler word 감지, 모호 표현 경고, 분할 제안 등 실시간 가이드를 통해 사용자의 프롬프트 작성 역량 자체를 향상 |
-| GitHub Repo | [https://github.com/0727n1122-beep/graduationproject/tree/main](https://github.com/0727n1122-beep/graduationproject/tree/main) |
+| GitHub Repo | [https://github.com/0727n1122-beep/graduationproject](https://github.com/0727n1122-beep/graduationproject) |
 | Team Ground Rule | [Team Ground Rule](https://github.com/0727n1122-beep/graduationproject/blob/main/Team_Ground_Rule.md) |
 | 최종수정일 | 04.15 |
 
